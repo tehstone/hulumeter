@@ -10,6 +10,7 @@ from requests import *
 def get_application(debug=False):
     try:
         settings = {
+            'debug': True
         }
         application = tornado.web.Application([
             (r'/',HelloRequest),
