@@ -12,6 +12,7 @@ def get_application(debug=False):
         settings = {
         }
         application = tornado.web.Application([
+            (r'/',HelloRequest),
         ], **settings)
 
         return application
