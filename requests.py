@@ -2,7 +2,7 @@ import os
 import cfg
 import json
 
-from tornado.web import RequestHandler
+from tornado.web import RequestHandler, addslash
 from tornado import template
 
 from lib.scores import ScoreViewer
@@ -21,9 +21,8 @@ class HelloRequest(TemplateRequest):
     def get(self):
         self.render_template('base.html')
 
-
 class ScoresRequest(RequestHandler):
+    @addslash
     def get(self):
         sv = ScoreViewer()
-        json_scores = json.dumps(sv.get_scores('happy', 'sad'))
-        self.write(json_scores)
+        self.write(sv.get_scores('happy', 'sad'))

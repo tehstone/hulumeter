@@ -12,7 +12,9 @@ a {
     white-space: nowrap;
 }
 
-
+html, body, wrapper {
+    height: 100%;
+}
 a:hover {
     color: #8dbe52;
 }

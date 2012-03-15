@@ -15,8 +15,8 @@ def get_application(debug=False):
             'debug': True
         }
         application = tornado.web.Application([
+            (r'/scores/?', ScoresRequest),
             (r'/',HelloRequest),
-            (r'/scores/', ScoresRequest),
         ], **settings)
 
         return application
