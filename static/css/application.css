@@ -1,0 +1,245 @@
+html, body, div, dl, dt, dd, ul,
+    ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+    fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+a:hover {
+    color: #8dbe52;
+}
+
+body {
+    font-family: "Arial", "Lucida Grande";
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+table {
+    border-spacing: 0;
+}
+
+::selection {
+    background: #8dbe52;
+    color: white;
+}
+
+::-moz-selection {
+    background: #8dbe52;
+    color: white;
+}
+
+fieldset {
+    padding: 4px;
+    border-color: #8dbe52;
+}
+
+.logo a, #title{
+    font-family: "Futura", "Arial", "Lucia Grande";
+}
+
+.user-bar span {
+    padding-left: 10px;     
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 97px;
+    height: 28px;
+}
+.logo a:hover{
+    color: #666;
+}
+
+.user-bar{
+    text-align: right;
+    float:right;
+    width: auto;
+}
+
+.controlHead, .subheading, legend {
+    font-family: Futura, "Arial", "Lucida Grande";
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.controlList, .controlHead{
+    text-align: center;
+}
+.controlList ul {
+    list-style-type: none;
+}
+
+.shim {
+    clear: both;
+}
+
+br.shim {
+    line-height: 0;
+    height: 0;
+}
+
+.content_top p#title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content_middle p#subheading{
+    font-size: 20px;
+}
+
+.description {
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.data {
+    width: 100px;
+}
+
+.subHeading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.projectTable tr td {
+    padding: 5px 5px;
+}
+
+.logtable tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    width: 100px;
+}
+
+.logtable tr .data {
+    width: 500px;
+}
+
+.environmentTable {
+    width: 100%;
+}
+.environmentTable th {
+    color: #0A3D14;
+    border-bottom: 2px solid #667881;
+    padding: 5px 5px;
+}
+
+.environmentTable tr td {
+    padding: 5px 5px;
+}
+
+.environmentTable tr:hover {
+    color: #257d37;
+    font-weight: bold;
+}
+
+.content_middle p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.envpara {
+    font-weight: bold;
+}
+
+.envpick {
+    color: darkgreen;
+    margin-left: 10px;
+}
+
+.options button, .reload button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:10px;
+    margin-top:5px;
+}
+
+.viewlog a{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.pend_section {
+    border: 3px solid #8dbe52;
+    font-family: "Consolas";
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+
+#console {
+    background-color : #000;
+    border: 3px solid #8dbe52;
+    font-family: "Consolas";
+    color: #ccc;
+    padding: 5px;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+#wrapper {
+    width: 1000px;
+    text-align: center;
+    padding: 10px 0; 
+    margin: 15px auto 40px;
+    /*padding-bottom: 100%;*/
+}
+
+#header {
+    text-align: left;
+    height: 40px;
+}
+
+#content {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#leftnav {
+    width: 125px;
+    float:left;
+    border-style: solid;
+    border-color: #8dbe52;
+    border-width: 2px;
+    padding: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+#main {
+    float: left;
+    width: 803px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
