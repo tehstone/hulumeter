@@ -1,15 +1,17 @@
+import os
 import traceback
 import logging
 
 import tornado.web
 import tornado.ioloop
 
+import cfg
 from requests import *
-
 
 def get_application(debug=False):
     try:
         settings = {
+            'static_path': os.path.join(cfg.root, "static"),
             'debug': True
         }
         application = tornado.web.Application([
